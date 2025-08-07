@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Residential Electrical Services | Landmark Electrical Contractors, LLC</title>
+  <meta name="description" content="Residential electrical services: panel upgrades, EV chargers, lighting, troubleshooting, generators, and more in Central Connecticut." />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Landmark Electrical Contractors logo" />
+        <span class="brand-text">
+          <strong>Landmark Electrical</strong><br>
+          <small>Contractors, LLC</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="about.html">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Residential Services</h1>
+        <p>Professional-grade work, homeowner-friendly care.</p>
+      </div>
+    </section>
+
+    <section class="container services">
+      <article id="panel" class="service">
+        <h2>Panel & Service Upgrades</h2>
+        <p>Replace outdated panels, add capacity, and bring your service up to modern code. Ideal if you’re adding central AC, electric range, hot tub, or EV charging.</p>
+        <ul>
+          <li>100–200A upgrades</li>
+          <li>Meter & service mast replacements</li>
+          <li>Surge protection options</li>
+        </ul>
+      </article>
+
+      <article id="lighting" class="service">
+        <h2>Lighting & Ceiling Fans</h2>
+        <p>Bright, efficient, and stylish. From whole-home LED upgrades to exterior security lighting and dimmable atmospherics.</p>
+        <ul>
+          <li>Recessed & under-cabinet lighting</li>
+          <li>Exterior & security lights</li>
+          <li>Smart switches, dimmers & scenes</li>
+        </ul>
+      </article>
+
+      <article id="ev" class="service">
+        <h2>EV Chargers & Dedicated Circuits</h2>
+        <p>Level-2 home charging installed to manufacturer specs and local code. We’ll size the circuit, pull permits, and test the install.</p>
+        <ul>
+          <li>40–60A EV circuits</li>
+          <li>Load calculations</li>
+          <li>Permitting & inspection support</li>
+        </ul>
+      </article>
+
+      <article id="troubleshoot" class="service">
+        <h2>Troubleshooting & Repairs</h2>
+        <p>Breakers tripping? Outlets dead? We quickly diagnose and fix issues, with clear explanations and up-front pricing.</p>
+      </article>
+
+      <article id="safety" class="service">
+        <h2>Safety Updates</h2>
+        <p>Protect your home and family with modern safety devices.</p>
+        <ul>
+          <li>GFCI/AFCI protection</li>
+          <li>Smoke/CO detectors</li>
+          <li>Grounding & bonding corrections</li>
+        </ul>
+      </article>
+
+      <article id="backup" class="service">
+        <h2>Generators & Transfer Equipment</h2>
+        <p>Keep essentials powered with interlock kits or transfer switches for portable or standby generators.</p>
+      </article>
+
+      <div class="services-cta">
+        <a class="btn btn-primary" href="index.html#contact">Request a Free Estimate</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Landmark Electrical Contractors, LLC</p>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
