@@ -156,3 +156,29 @@ body{
 .footer-inner{display:flex; gap:1rem; align-items:center; justify-content:space-between; padding:1rem 0; flex-wrap:wrap}
 .site-footer a{color:#fff; text-decoration:none; opacity:.9}
 .site-footer a:hover{opacity:1}
+
+/* ===== MOBILE OPTIMIZATIONS ===== */
+@media (max-width:900px){
+  .grid-3{grid-template-columns:1fr}
+  .split{grid-template-columns:1fr}
+  .trust-inner{grid-template-columns:1fr 1fr}
+}
+@media (max-width:800px){
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-card { margin-top: 1rem; }
+  .contact-inner { grid-template-columns: 1fr; }
+  .contact-form { margin-top: 1rem; }
+  .nav-toggle{display:inline-flex;}
+  .site-nav{display:none;}
+}
+@media (max-width:600px){
+  .brand img { height: 40px; }
+  .brand-text { font-size: 0.85rem; line-height: 1.2; }
+  .cta .btn { flex: 1; text-align: center; }
+  .trust-inner{grid-template-columns:1fr;}
+  .btn { padding: 1rem; font-size: 1rem; }
+  .site-nav a { padding: 0.75rem; font-size: 1rem; }
+}
+@media (hover: none) {
+  .site-nav a:hover { background: none; }
+}
